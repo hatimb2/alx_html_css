@@ -1,0 +1,42 @@
+.pentagon {
+    position: relative;
+    width: 100px;
+    height: 58px;
+    background-color: var(--cta-bg-color);
+    margin-bottom: 20px;
+}
+.pentagon:before {
+    content: "";
+    position: absolute;
+    top: -29px;
+    left: 0;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 29px solid var(--cta-bg-color);
+}
+.pentagon:after {
+    content: "";
+    position: absolute;
+    bottom: -29px;
+    left: 0;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 29px solid var(--cta-bg-color);
+}
+.result-box {
+    text-align: center;
+    color: var(--text-color);
+    padding: 20px;
+    position: relative;
+    display: inline-block;
+}
+.result-box p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.result-box span {
+    font-size: 14px;
+}

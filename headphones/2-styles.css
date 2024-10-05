@@ -1,0 +1,43 @@
+.results {
+    background-image: url('c:\Users\hatim\Downloads\images\headphones_hero_2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 60px 20px; 
+    color: #ffffff;
+}
+.results-content {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    text-align: center;
+}
+.results-content p {
+    color: #b0b0b0;
+    margin-bottom: 40px;
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+} 
+.card {
+    background-color: #ff6b6b;
+    padding: 20px;
+    text-align: center;
+    width: 120px;
+    border-radius: 8px;
+    position: relative;
+} 
+.card-percentage {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+} 
+.card-text {
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+} 

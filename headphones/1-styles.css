@@ -1,0 +1,78 @@
+
+.hero {
+    height: 600px;
+    background-image: url('hero-background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.hero-content {
+    max-width: 600px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.cta-button {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.cta-button:hover {
+    background-color: #e63946;
+}
+.sub-text {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+.what-we-do {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+.what-we-do h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.what-we-do p {
+    max-width: 600px;
+    margin: 0 auto 40px;
+    font-size: 1.1rem;
+    color: #666;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.feature {
+    max-width: 200px;
+    text-align: center;
+}
+.feature img {
+    height: 80px;
+    margin-bottom: 20px;
+}
+.feature h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 1rem;
+    color: #666;
+}
